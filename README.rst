@@ -1,13 +1,7 @@
-Title
+l10n_it delivery note shipping partner
 ===============================
-Description
-
-Configuration
-=============
-
-Usage
-=====
-Descriprion usage
+Di default sul ddt non prende l'ind di consegna.
+Con questo modulo prende l'ind di consegna se c'è 
 
 
 Credits
@@ -21,4 +15,4 @@ Authors
 Contributors
 ~~~~~~~~~~~~
 
-* Moccia Francesco <moccia.f@stesi.eu>
+* Michele <dicroce.m@stesi.eu>
