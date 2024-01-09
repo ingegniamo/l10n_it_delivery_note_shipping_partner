@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "",
+    'name': "L10n delivery note shipping partner",
     
     'summary': "",
   
