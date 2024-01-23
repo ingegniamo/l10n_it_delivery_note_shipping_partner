@@ -9,4 +9,4 @@ class StockDeliveryNoteCreateWizard(models.TransientModel):
     @api.onchange("partner_id")
     def _onchange_partner(self):
         partner_ids = (self.partner_id | self.partner_id.child_ids).sorted(lambda l:l.type=='delivery',reverse=True)
-        self.partner_shipping_id = partner_ids[:1]
+        self.partner_shipping_id = partner_ids[:1] or self.partner_id
